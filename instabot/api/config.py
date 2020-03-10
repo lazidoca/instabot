@@ -12,7 +12,7 @@ USER_AGENT_BASE = (
     "{device}; {model}; {cpu}; en_US; {version_code})"
 )
 SIG_KEY_VERSION = "4"
-IG_SIG_KEY = "a86109795736d73c9a94172cd9b736917d7d94ca61c9101164894b3f0d43bef4"
+IG_SIG_KEY = "f0bdfd5332d66a64d5e04965e6a7ade67c4e2cfc57ea38f0083c0400640a5e20"
 
 REQUEST_HEADERS = {
     "X-IG-App-Locale": "en_US",
