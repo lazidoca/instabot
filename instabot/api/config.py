@@ -4,7 +4,7 @@ import random
 # version 117.0.0.28.123 (166149665)
 API_DOMAIN = "i.instagram.com"
 API_URL = "https://{domain}/api/v1/".format(domain=API_DOMAIN)
-APP_VERSION = "117.0.0.28.123"
+APP_VERSION = "130.0.0.31.121"
 USER_AGENT_BASE = (
     "Instagram {app_version} "
     "Android ({android_version}/{android_release}; "
@@ -24,7 +24,7 @@ REQUEST_HEADERS = {
     "X-IG-Bandwidth-TotalBytes-B": str(random.randint(500000, 900000)),
     "X-IG-Bandwidth-TotalTime-MS": str(random.randint(50, 150)),
     "X-IG-Prefetch-Request": "foreground",
-    "X-Bloks-Version-Id": "0a3ae4c88248863609c67e278f34af44673cff300bc76add965a9fb036bd3ca3",
+    "X-Bloks-Version-Id": "0e9b6d9c0fb2a2df4862cd7f46e3f719c55e9f90c20db0e5d95791b66f43b367",
     "X-IG-WWW-Claim": "0",
     "X-MID": "XkAyKQABAAHizpYQvHzNeBo4E9nm",
     "X-Bloks-Is-Layout-RTL": "false",
